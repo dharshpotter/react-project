@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+
+#have-an-acc:hover{
+    color: black;
+}
+
+.nami{
+    width: 50px;
+}

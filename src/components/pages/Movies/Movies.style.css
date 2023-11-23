@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgrounddd{
+    height: 90vh;
+    width: 100%;
+}
+
+.containerrr{
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    background: transparent;
+}
+
+.col{
+    height: 500px;
+    width: 250px;
+}
+
+.cardm{
+    height: 600px;
+    width: 250px;
+}
+

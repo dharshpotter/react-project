@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.navigation-menus{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 25px;
+}
+
+#brand{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: 30px;
+}
+
+#search{
+    padding-left: 300px;
+    border-radius: 5px;
+}
+
+.primary-menus{
+    height: 50px;
+}
+
+.secondary-menus{
+    padding-right: 60px;
+    
+}
+
+.navigation-buttons{
+    display: flex;
+    list-style: none;
+    height: 25px;
+}
+
+#login:hover, #signup:hover{
+    background-color: black;
+    color: white;
+}
+
+#login{
+    background-color: white;
+}
+
+#brand:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 30px;
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#brand:hover:after{
+    width: 100%;
+}
+
+#logout{
+    height: 70px;
+}
+
+#logout-btnn:hover{
+    background-color: black;
+    color: white;
+}
+
+#signup{
+   transform: translateY(-8px);
+}
+
+#signup-btnn:hover{
+    background-color: black;
+    color: white;
+}

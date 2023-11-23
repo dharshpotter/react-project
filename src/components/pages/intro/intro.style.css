@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+
+}
+
+.backgroundd{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./../../../../blurred.jpg);
+    background-position: center;
+}
+
+.containerr{
+    height: 90vh;
+    width: 100%;
+    background: transparent;
+}
+
+
+form{
+    background: transparent;
+    margin-left: 270px;
+}
+
+#state{
+    background: transparent;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#diveIn-btn{
+    background: transparent; 
+    width: 100px;
+    color: white;
+    transform: translateX(-140px);
+    font-size: 20px;
+}
+
+#diveIn-btn:hover{
+    background-color: white;
+    color: black;   
+}
+
+#binge{
+    font-size: 70px;
+    background: transparent;
+}
+
