@@ -9,7 +9,7 @@ export const store = configureStore({
         auth:authSlice.reducer,
     },
 })
-
+ 
 export const actions = {
     counterActions : counterSlice.actions,
     authActions : authSlice.actions,

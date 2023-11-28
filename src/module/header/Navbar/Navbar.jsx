@@ -26,6 +26,7 @@ function NavbarPage() {
   }
   function logout() {
     dispatch(actions.authActions.logout());
+    navigate("./")
   }
   return (
     <nav className="navbar pt-2 bg-secondary text-light">
