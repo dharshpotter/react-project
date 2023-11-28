@@ -11,9 +11,7 @@ export function RootLayout(){
 
     useEffect(()=>{
         if(searchMovies){
-          navigate("/search")
-        }else{
-          navigate("/");
+          navigate("search")
         }
       },[searchMovies]);
   

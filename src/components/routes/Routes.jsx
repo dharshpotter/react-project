@@ -12,19 +12,19 @@ import IntroPage from "../pages/intro/Intro";
 
 const routes = [
   {
-    path: "/",
+    path: "",
     element: <RootLayout />,
     errorElement:<PageNotFound/>,
     children: [
       
-      { path: "/" , element: <IntroPage />},
-      { path: "/react" , element: <ReactPage />},
-      { path: "/land", element: <LandPage /> },
-      { path: "/movies", element: <MoviePage /> },
-      { path: "/search", element: <SearchPage /> },
-      { path: "/:movieName/:movieId", element:<Movie/>},
-      { path: "/signup", element: <SignUpPage /> },
-      { path: "/login", element: <LoginPage /> },
+      { path: "" , element: <IntroPage />},
+      { path: "react" , element: <ReactPage />},
+      { path: "land", element: <LandPage /> },
+      { path: "movies", element: <MoviePage /> },
+      { path: "search", element: <SearchPage /> },
+      { path: ":movieName/:movieId", element:<Movie/>},
+      { path: "signup", element: <SignUpPage /> },
+      { path: "login", element: <LoginPage /> },
     ],
   },
 ];
